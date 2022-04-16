@@ -53,6 +53,11 @@ ionApp.config(function(
     'x-apikey': '5821f61550e9b39131fe1b6f',
   };
 
+/*
+"https://api.airtable.com/v0/app0hohtq4b1nM0Kb/Scores?maxRecords=5" 
+  -H "Authorization: Bearer key66fQg5IghIIQmb"
+*/
+
   $cryptoProvider.setCryptographyKey('alpha1234');
   $provide.value('aat123', 123);
   $provide.factory('bbCrypt', function() {
